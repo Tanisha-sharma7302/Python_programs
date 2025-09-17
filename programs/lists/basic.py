@@ -48,11 +48,94 @@
 # print(num.split())
 
 
-a=list(map(int,input().split()))
-print(a)
+# a=list(map(int,input().split()))
+# print(a)
 
 
-a=map(int,input().split())
-print(a)
+# a=map(int,input().split())
+# print(a)
+
+
+#given an array compute the sum of all array.
+# arr=list(map(int,input().split()))
+# ans=0
+# for i in range(len(arr)):
+#     ans=ans+arr[i]
+# print(ans)
+
+
+#given an array find the max value in it.
+# arr=list(map(int,input().split()))
+# ans=-float("inf")
+# for i in arr:
+#     if(ans<i):
+#         ans=i
+# print(ans)
+
+
+# ans=-float("inf")
+
+# given an array and a target number. find number of occurance of target number in the array.
+ 
+# arr=list(map(int(input().split()))
+# target=int(input())
+# count=0
+# for i in range(len(arr)):
+#     if(arr[i]==target):
+#         count+=1
+# print(count)
+
+# given an array and an increment number generate a new array which contains all values of original array increased by increment value.
+
+# arr=list(map(int,input().split()))
+# inc=int(input())
+# new_arr=[]
+
+# for i in arr:
+#     new_arr.append(i+inc)
+# print(new_arr)
+
+# square question
+# arr=list(map(int,input().split()))
+# inc=int(input())
+# square=inc*inc
+# new_arr=[]
+
+# for i in arr:
+#     new_arr.append(i+square)
+# print(new_arr)
+
+# filter out the odd numbers
+
+# arr=list(map(int,input().split()))
+# oddNum_arr=[]
+
+# for i in arr:
+#     if(i%2!=0):
+#         oddNum_arr.append(i)
+# print(oddNum_arr)
+
+   
+# arr=list(map(int(input().split())))
+# target=int(input())
+# for i in arr:
+#     if (target==arr[i]):
+#         print(i)
+    
+
+
+list1=[1, 2, 3, 4, 4, 5]
+list2=[5, 6, 7, 8]
+result=[]
+for i in range(len(list2)):
+    result.append(list1[i] + list2[i])
+print(result)
+
+ 
+
+
+
+
+
 
 
